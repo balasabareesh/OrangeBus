@@ -63,7 +63,7 @@ public class ExcelData
 		} 
 		catch (IOException e) 
 		{
-			e.printStackTrace();
+			System.err.println(e.getMessage());
 		}
 	}
 
